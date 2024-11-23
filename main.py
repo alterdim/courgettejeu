@@ -10,25 +10,33 @@ def piocher_cartes(cartes, n):
     # Si n est plus grand que le nombre de cartes disponibles, prendre toutes les cartes disponibles
     return random.sample(cartes, min(n, len(cartes)))
 
-def verifier_satisfaction(client, ressources_piochées):
-    # Compter le nombre total de ressources disponibles dans les cartes piochées
-    ressources_disponibles = sum(len(carte["ressources"]) for carte in ressources_piochées)
-    
-    # Vérifier si le nombre total de ressources piochées est suffisant pour satisfaire la demande
-    return ressources_disponibles >= len(client["demande"])
+def verifier_satisfaction(client, ressources_disponibles):
+    # Vérifier si nous avons suffisamment de ressources pour satisfaire la demande du client
+    if len(ressources_disponibles) >= len(client["demande"]):
+        return True
+    return False
 
-def calculer_satisfaction(ressources_piochées, clients_piochés):
+def repartition_ressources(ressources_piochées, clients_piochés):
+    # Répartir les ressources entre les clients
+    ressources_disponibles = []
+    for carte in ressources_piochées:
+        ressources_disponibles.extend(carte["ressources"])
+    
     clients_satisfaits = 0
     for client in clients_piochés:
-        if verifier_satisfaction(client, ressources_piochées):
+        if verifier_satisfaction(client, ressources_disponibles):
+            # Allouer les ressources au client en les retirant de la liste des ressources disponibles
+            for _ in range(len(client["demande"])):
+                ressources_disponibles.pop()
             clients_satisfaits += 1
+
     return clients_satisfaits
 
 def simuler_tour(ressources, clients, X, Y):
     ressources_piochées = piocher_cartes(ressources, X)
     clients_piochés = piocher_cartes(clients, Y)
 
-    clients_satisfaits = calculer_satisfaction(ressources_piochées, clients_piochés)
+    clients_satisfaits = repartition_ressources(ressources_piochées, clients_piochés)
     
     if Y > 0:
         pourcentage_satisfaction = (clients_satisfaits / Y) * 100
