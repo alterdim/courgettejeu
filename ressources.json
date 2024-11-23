@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "ressources": ["Ressource A", "Ressource B"]
+    },
+    {
+      "id": 2,
+      "ressources": ["Ressource C"]
+    },
+    {
+      "id": 3,
+      "ressources": ["Ressource A", "Ressource C"]
+    },
+    {
+      "id": 4,
+      "ressources": ["Ressource B", "Ressource D"]
+    }
+  ]
+  
