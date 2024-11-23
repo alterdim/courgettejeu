@@ -1,19 +1,714 @@
 [
     {
-      "id": 1,
-      "ressources": ["Ressource A", "Ressource B"]
+        "id": 1,
+        "ressources": [
+            "Ressource D",
+            "Ressource B",
+            "Ressource A"
+        ]
     },
     {
-      "id": 2,
-      "ressources": ["Ressource C"]
+        "id": 2,
+        "ressources": [
+            "Ressource B"
+        ]
     },
     {
-      "id": 3,
-      "ressources": ["Ressource A", "Ressource C"]
+        "id": 3,
+        "ressources": [
+            "Ressource F",
+            "Ressource E"
+        ]
     },
     {
-      "id": 4,
-      "ressources": ["Ressource B", "Ressource D"]
+        "id": 4,
+        "ressources": [
+            "Ressource E",
+            "Ressource F",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 5,
+        "ressources": [
+            "Ressource D",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 6,
+        "ressources": [
+            "Ressource B",
+            "Ressource F",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 7,
+        "ressources": [
+            "Ressource E",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 8,
+        "ressources": [
+            "Ressource A",
+            "Ressource C",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 9,
+        "ressources": [
+            "Ressource E",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 10,
+        "ressources": [
+            "Ressource E",
+            "Ressource A",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 11,
+        "ressources": [
+            "Ressource E",
+            "Ressource F",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 12,
+        "ressources": [
+            "Ressource E",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 13,
+        "ressources": [
+            "Ressource D",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 14,
+        "ressources": [
+            "Ressource E",
+            "Ressource B",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 15,
+        "ressources": [
+            "Ressource F",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 16,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 17,
+        "ressources": [
+            "Ressource B",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 18,
+        "ressources": [
+            "Ressource C",
+            "Ressource E",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 19,
+        "ressources": [
+            "Ressource D",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 20,
+        "ressources": [
+            "Ressource B",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 21,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 22,
+        "ressources": [
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 23,
+        "ressources": [
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 24,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 25,
+        "ressources": [
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 26,
+        "ressources": [
+            "Ressource D",
+            "Ressource F",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 27,
+        "ressources": [
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 28,
+        "ressources": [
+            "Ressource C",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 29,
+        "ressources": [
+            "Ressource C",
+            "Ressource D",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 30,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 31,
+        "ressources": [
+            "Ressource E",
+            "Ressource A",
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 32,
+        "ressources": [
+            "Ressource E",
+            "Ressource B",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 33,
+        "ressources": [
+            "Ressource E",
+            "Ressource A",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 34,
+        "ressources": [
+            "Ressource A",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 35,
+        "ressources": [
+            "Ressource F",
+            "Ressource C",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 36,
+        "ressources": [
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 37,
+        "ressources": [
+            "Ressource A",
+            "Ressource E",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 38,
+        "ressources": [
+            "Ressource E",
+            "Ressource B",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 39,
+        "ressources": [
+            "Ressource A",
+            "Ressource D",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 40,
+        "ressources": [
+            "Ressource A",
+            "Ressource B",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 41,
+        "ressources": [
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 42,
+        "ressources": [
+            "Ressource D",
+            "Ressource B",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 43,
+        "ressources": [
+            "Ressource B",
+            "Ressource F",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 44,
+        "ressources": [
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 45,
+        "ressources": [
+            "Ressource F",
+            "Ressource B",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 46,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 47,
+        "ressources": [
+            "Ressource D",
+            "Ressource A",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 48,
+        "ressources": [
+            "Ressource E",
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 49,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 50,
+        "ressources": [
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 51,
+        "ressources": [
+            "Ressource B",
+            "Ressource D",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 52,
+        "ressources": [
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 53,
+        "ressources": [
+            "Ressource C",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 54,
+        "ressources": [
+            "Ressource F",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 55,
+        "ressources": [
+            "Ressource C",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 56,
+        "ressources": [
+            "Ressource D",
+            "Ressource B",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 57,
+        "ressources": [
+            "Ressource E",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 58,
+        "ressources": [
+            "Ressource C",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 59,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 60,
+        "ressources": [
+            "Ressource C",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 61,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 62,
+        "ressources": [
+            "Ressource D",
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 63,
+        "ressources": [
+            "Ressource E",
+            "Ressource C",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 64,
+        "ressources": [
+            "Ressource F",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 65,
+        "ressources": [
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 66,
+        "ressources": [
+            "Ressource B",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 67,
+        "ressources": [
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 68,
+        "ressources": [
+            "Ressource D",
+            "Ressource A",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 69,
+        "ressources": [
+            "Ressource C",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 70,
+        "ressources": [
+            "Ressource C",
+            "Ressource B",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 71,
+        "ressources": [
+            "Ressource A",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 72,
+        "ressources": [
+            "Ressource B",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 73,
+        "ressources": [
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 74,
+        "ressources": [
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 75,
+        "ressources": [
+            "Ressource E",
+            "Ressource D",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 76,
+        "ressources": [
+            "Ressource A",
+            "Ressource B",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 77,
+        "ressources": [
+            "Ressource A",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 78,
+        "ressources": [
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 79,
+        "ressources": [
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 80,
+        "ressources": [
+            "Ressource B",
+            "Ressource A",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 81,
+        "ressources": [
+            "Ressource C",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 82,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 83,
+        "ressources": [
+            "Ressource E",
+            "Ressource D",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 84,
+        "ressources": [
+            "Ressource A",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 85,
+        "ressources": [
+            "Ressource D",
+            "Ressource C",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 86,
+        "ressources": [
+            "Ressource C",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 87,
+        "ressources": [
+            "Ressource A",
+            "Ressource D",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 88,
+        "ressources": [
+            "Ressource C",
+            "Ressource B",
+            "Ressource F"
+        ]
+    },
+    {
+        "id": 89,
+        "ressources": [
+            "Ressource C",
+            "Ressource D",
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 90,
+        "ressources": [
+            "Ressource D",
+            "Ressource C",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 91,
+        "ressources": [
+            "Ressource A",
+            "Ressource F",
+            "Ressource C"
+        ]
+    },
+    {
+        "id": 92,
+        "ressources": [
+            "Ressource F",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 93,
+        "ressources": [
+            "Ressource B",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 94,
+        "ressources": [
+            "Ressource C",
+            "Ressource E",
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 95,
+        "ressources": [
+            "Ressource F",
+            "Ressource D",
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 96,
+        "ressources": [
+            "Ressource D",
+            "Ressource E"
+        ]
+    },
+    {
+        "id": 97,
+        "ressources": [
+            "Ressource D"
+        ]
+    },
+    {
+        "id": 98,
+        "ressources": [
+            "Ressource D",
+            "Ressource A"
+        ]
+    },
+    {
+        "id": 99,
+        "ressources": [
+            "Ressource B"
+        ]
+    },
+    {
+        "id": 100,
+        "ressources": [
+            "Ressource D",
+            "Ressource A"
+        ]
     }
-  ]
-  
+]
