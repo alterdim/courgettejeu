@@ -2,22 +2,22 @@
     {
         "id": 1,
         "demande": [
-            "Ressource E",
-            "Ressource C",
-            "Ressource F"
+            "Ressource B",
+            "Ressource C"
         ]
     },
     {
         "id": 2,
         "demande": [
-            "Ressource F",
-            "Ressource A"
+            "Ressource B",
+            "Ressource D"
         ]
     },
     {
         "id": 3,
         "demande": [
-            "Ressource B"
+            "Ressource B",
+			"Ressource E"
         ]
     },
     {
@@ -30,316 +30,281 @@
     {
         "id": 5,
         "demande": [
-            "Ressource F"
+            "Ressource C",
+			"Ressource D"
         ]
     },
     {
         "id": 6,
         "demande": [
             "Ressource C",
-            "Ressource B"
+            "Ressource E"
         ]
     },
     {
         "id": 7,
         "demande": [
-            "Ressource F"
+            "Ressource C",
+			"Ressource F"
         ]
     },
     {
         "id": 8,
         "demande": [
-            "Ressource E"
+            "Ressource D",
+			"Ressource E"
         ]
     },
     {
         "id": 9,
         "demande": [
-            "Ressource A",
-            "Ressource B"
+            "Ressource D",
+            "Ressource F"
         ]
     },
     {
         "id": 10,
         "demande": [
-            "Ressource F",
-            "Ressource B"
+            "Ressource E",
+            "Ressource F"
         ]
     },
     {
         "id": 11,
         "demande": [
-            "Ressource F",
-            "Ressource D",
-            "Ressource B"
+            "Ressource B",
+            "Ressource C",
+            "Ressource D"
         ]
     },
     {
         "id": 12,
         "demande": [
-            "Ressource E"
+            "Ressource B",
+			"Ressource C",
+			"Ressource E"
         ]
     },
     {
         "id": 13,
         "demande": [
+            "Ressource B",
             "Ressource C",
-            "Ressource E"
+			"Ressource F"
         ]
     },
     {
         "id": 14,
         "demande": [
+            "Ressource B",
             "Ressource D",
-            "Ressource C",
-            "Ressource B"
+            "Ressource E"
         ]
     },
     {
         "id": 15,
         "demande": [
-            "Ressource F",
-            "Ressource C",
-            "Ressource B"
+            "Ressource B",
+            "Ressource D",
+            "Ressource F"
         ]
     },
     {
         "id": 16,
         "demande": [
-            "Ressource B"
+            "Ressource B",
+			"Ressource E",
+			"Ressource F"
         ]
     },
     {
         "id": 17,
         "demande": [
-            "Ressource A",
-            "Ressource E",
-            "Ressource C"
+            "Ressource C",
+            "Ressource D",
+            "Ressource E"
         ]
     },
     {
         "id": 18,
         "demande": [
-            "Ressource C"
+            "Ressource C",
+			"Ressource D",
+			"Ressource F"
         ]
     },
     {
         "id": 19,
         "demande": [
+            "Ressource C",
             "Ressource E",
-            "Ressource C"
+			"Ressource F"
         ]
     },
     {
         "id": 20,
         "demande": [
-            "Ressource A",
-            "Ressource B",
+            "Ressource D",
+            "Ressource E",
             "Ressource F"
         ]
     },
     {
         "id": 21,
         "demande": [
-            "Ressource A"
+            "Ressource A",
+			"Ressource B"
         ]
     },
     {
         "id": 22,
         "demande": [
-            "Ressource F"
+            "Ressource A",
+			"Ressource C"
         ]
     },
     {
         "id": 23,
         "demande": [
-            "Ressource B"
+            "Ressource A",
+			"Ressource D"
         ]
     },
     {
         "id": 24,
         "demande": [
-            "Ressource E"
+            "Ressource A",
+			"Ressource E"
         ]
     },
     {
         "id": 25,
         "demande": [
-            "Ressource B"
+            "Ressource A",
+			"Ressource F"
         ]
     },
     {
         "id": 26,
         "demande": [
-            "Ressource D",
-            "Ressource B"
+            "Ressource A"
         ]
     },
-    {
+	{
         "id": 27,
         "demande": [
-            "Ressource A",
-            "Ressource B",
-            "Ressource E"
-        ]
-    },
-    {
-        "id": 28,
-        "demande": [
-            "Ressource C",
-            "Ressource A",
-            "Ressource F"
-        ]
-    },
-    {
-        "id": 29,
-        "demande": [
-            "Ressource C",
-            "Ressource D"
-        ]
-    },
-    {
-        "id": 30,
-        "demande": [
-            "Ressource D",
-            "Ressource C",
-            "Ressource A"
-        ]
-    },
-    {
-        "id": 31,
-        "demande": [
-            "Ressource A"
-        ]
-    },
-    {
-        "id": 32,
-        "demande": [
-            "Ressource D",
-            "Ressource A",
-            "Ressource C"
-        ]
-    },
-    {
-        "id": 33,
-        "demande": [
-            "Ressource D"
-        ]
-    },
-    {
-        "id": 34,
-        "demande": [
-            "Ressource B",
-            "Ressource D",
-            "Ressource A"
-        ]
-    },
-    {
-        "id": 35,
-        "demande": [
-            "Ressource A",
-            "Ressource C",
             "Ressource B"
         ]
     },
-    {
-        "id": 36,
+	{
+        "id": 28,
         "demande": [
-            "Ressource C",
-            "Ressource D",
-            "Ressource A"
+            "Ressource C"
         ]
     },
-    {
-        "id": 37,
+	{
+        "id": 29,
         "demande": [
-            "Ressource C",
-            "Ressource A"
+            "Ressource D"
         ]
     },
-    {
-        "id": 38,
+	{
+        "id": 30,
         "demande": [
             "Ressource E"
         ]
     },
-    {
-        "id": 39,
-        "demande": [
-            "Ressource E"
-        ]
-    },
-    {
-        "id": 40,
-        "demande": [
-            "Ressource C"
-        ]
-    },
-    {
-        "id": 41,
+	{
+        "id": 31,
         "demande": [
             "Ressource F"
         ]
     },
-    {
-        "id": 42,
-        "demande": [
-            "Ressource C"
-        ]
-    },
-    {
-        "id": 43,
-        "demande": [
-            "Ressource A"
-        ]
-    },
-    {
-        "id": 44,
-        "demande": [
-            "Ressource A"
-        ]
-    },
-    {
-        "id": 45,
-        "demande": [
-            "Ressource D",
-            "Ressource A",
-            "Ressource C"
-        ]
-    },
-    {
-        "id": 46,
-        "demande": [
-            "Ressource D",
-            "Ressource A",
-            "Ressource F"
-        ]
-    },
-    {
-        "id": 47,
-        "demande": [
-            "Ressource D",
-            "Ressource C"
-        ]
-    },
-    {
-        "id": 48,
-        "demande": [
-            "Ressource C"
-        ]
-    },
-    {
-        "id": 49,
-        "demande": [
-            "Ressource F"
-        ]
-    },
-    {
-        "id": 50,
+	{
+        "id": 32,
         "demande": [
             "Ressource B",
+			"Ressource B"
+        ]
+    },
+	{
+        "id": 33,
+        "demande": [
+            "Ressource C",
+			"Ressource C"
+        ]
+    },
+	{
+        "id": 34,
+        "demande": [
             "Ressource D",
-            "Ressource E"
+			"Ressource D"
+        ]
+    },
+	{
+        "id": 35,
+        "demande": [
+            "Ressource E",
+			"Ressource E"
+        ]
+    },
+	{
+        "id": 36,
+        "demande": [
+            "Ressource F",
+			"Ressource F"
+        ]
+    },
+	{
+        "id": 37,
+        "demande": [
+            "Ressource B",
+			"Ressource B",
+			"Ressource B"
+        ]
+    },
+	{
+        "id": 38,
+        "demande": [
+            "Ressource C",
+			"Ressource C",
+			"Ressource C"
+        ]
+    },
+	{
+        "id": 39,
+        "demande": [
+            "Ressource D",
+			"Ressource D",
+			"Ressource D"
+        ]
+    },
+	{
+        "id": 40,
+        "demande": [
+            "Ressource E",
+			"Ressource E",
+			"Ressource E"
+        ]
+    },
+	{
+        "id": 41,
+        "demande": [
+            "Ressource F",
+			"Ressource F",
+			"Ressource F"
+        ]
+    },
+	{
+        "id": 42,
+        "demande": [
+            "Ressource A"
+        ]
+    },{
+        "id": 43,
+        "demande": [
+            "Ressource A",
+			"Ressource A"
         ]
     }
 ]
