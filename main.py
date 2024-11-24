@@ -47,9 +47,9 @@ def simuler_tour(ressources, clients, X, Y):
 def simulation_multiples(ressources, clients, max_X, max_Y, repetitions=100):
     satisfaction = []
     
-    for X in range(1, max_X + 1):  # Assurez-vous d'itérer sur toutes les valeurs de 1 à max_X
+    for X in range(min_X, max_X + 1):  # Assurez-vous d'itérer sur toutes les valeurs de 1 à max_X
         ligne = []
-        for Y in range(1, max_Y + 1):  # Assurez-vous d'itérer sur toutes les valeurs de 1 à max_Y
+        for Y in range(min_Y, max_Y + 1):  # Assurez-vous d'itérer sur toutes les valeurs de 1 à max_Y
             satisfaction_pourcentage = []
             for _ in range(repetitions):  # Nombre de simulations pour chaque combinaison
                 satisfaction_pourcentage.append(simuler_tour(ressources, clients, X, Y))
@@ -64,15 +64,20 @@ ressources = charger_cartes('ressources.json')
 clients = charger_cartes('clients.json')
 
 # Paramètres de la simulation
-max_X = 6  # Le nombre maximal de ressources piochées
-max_Y = 6  # Le nombre maximal de clients piochés
+min_X = int(input("Nombre minimal de ressources ?\n"))
+min_Y = int(input("Nombre minimal de clients ?\n"))
+max_X = int(input("Nombre maximal de ressources ?\n"))
+max_Y = int(input("Nombre maximal de clients ?\n"))
+
+if (min_X > max_X or min_Y > max_Y):
+    print("oulah ça va merder")
 
 # Effectuer la simulation
 satisfaction = simulation_multiples(ressources, clients, max_X, max_Y, repetitions=100)
 
-# Affichage du graphique
-X_values = list(range(1, max_X + 1))  # 1 à max_X
-Y_values = list(range(1, max_Y + 1))  # 1 à max_Y
+# Affichage du graphiques
+X_values = list(range(min_X, max_X + 1))  # 1 à max_X
+Y_values = list(range(min_Y, max_Y + 1))  # 1 à max_Y
 
 plt.figure(figsize=(10, 6))
 for i, X in enumerate(X_values):
